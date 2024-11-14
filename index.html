@@ -11,6 +11,34 @@
     <script src="./index.js"></script>
   </head>
   <body>
-    <p>Hello world!</p>
+    <div class="textbox">
+      <p>Welcome to the Interactive ABCs of CSS Technology learning Website</p>
+    </div>
+    <div class="textbox">
+      <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</p>
+    </div>
+    <div class="learning-content">
+      <div class="column">
+        <div class="infobox infobox-a hidden">
+          <img src="./img/css-letter-a.png" />
+          <button onclick="hide('a')">Hide Result</button>
+        </div>
+        <button class="big-button" onclick="show('a')">A</button>
+      </div>
+      <div class="column">
+        <div class="infobox infobox-b hidden">
+          <img src="./img/css-letter-b.png" />
+          <button onclick="hide('b')">Hide Result</button>
+        </div>
+        <button class="big-button" onclick="show('b')">B</button>
+      </div>
+      <div class="column">
+        <div class="infobox infobox-c hidden">
+          <img src="./img/css-letter-c.png" />
+          <button onclick="hide('c')">Hide Result</button>
+        </div>
+        <button class="big-button" onclick="show('c')">C</button>
+      </div>
+    </div>
   </body>
 </html>
