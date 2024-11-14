@@ -26,8 +26,9 @@ button {
 
   padding: 8px 16px;
 
-  background: #000000;
-  color: #ffffff;
+  background: #ffdd45;
+  color: #000000;
+  font-weight: 400;
 
   cursor: pointer;
 
@@ -70,6 +71,8 @@ button:hover {
 
 .big-button {
   padding: 16px 32px;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .hidden {
